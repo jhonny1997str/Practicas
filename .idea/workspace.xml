@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d15df5d4-d92f-4fa6-90b6-7de08c686788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Formulario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Formulario1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Formulario2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatricesDinamicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Practica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VectorDinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
