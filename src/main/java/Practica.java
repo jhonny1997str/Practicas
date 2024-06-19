@@ -9,10 +9,10 @@ public class Practica {
     public Practica(int filas, int columnas) {
         this.filas = filas;
         this.columnas = columnas;
-        this.numeros = new int[filas][columnas]; // Inicializamos el array de números con el tamaño del vector
+        this.numeros = new int[filas][columnas];
     }
 
-    // Métodos getter
+    //  getter
     public int getFilas() {
         return filas;
     }
@@ -21,14 +21,14 @@ public class Practica {
         return columnas;
     }
 
-    // Métodos setter
+    // setter
     public void setVector(int filas, int columnas) {
         this.filas = filas;
         this.columnas = columnas;
-        this.numeros = new int[filas][columnas]; // Actualizamos el tamaño del array de números
+        this.numeros = new int[filas][columnas];
     }
 
-    // Algoritmo para llenar el vector
+    // Algoritmo
     public void algoritmo() {
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < filas; i++) {
@@ -41,7 +41,7 @@ public class Practica {
         }
     }
 
-    // Método para mostrar información del vector
+    //  mostrar información
     public void mostrarinfo() {
         System.out.println("La Matriz creada  es: ");
         for (int i = 0; i < filas; i++) {
@@ -62,13 +62,13 @@ public class Practica {
         System.out.println("Ingrese la cantidad de columnas : ");
         int columnas = scanner.nextInt();
 
-        // Crear una instancia de Practica con el tamaño del vector
+        // instancia
         Practica practica = new Practica(filas, columnas);
 
-        // Llenar el vector con el algoritmo
+        //  algoritmo
         practica.algoritmo();
 
-        // Mostrar la información del vector
+        // Mostrar la información
         practica.mostrarinfo();
     }
 }
